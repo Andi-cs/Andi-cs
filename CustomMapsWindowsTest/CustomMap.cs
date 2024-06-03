@@ -9,5 +9,6 @@ namespace CustomMapsWindowsTest
 {
     public class CustomMap: Microsoft.Maui.Controls.Maps.Map
     {
+        public CustomMap() { }  
     }
 }

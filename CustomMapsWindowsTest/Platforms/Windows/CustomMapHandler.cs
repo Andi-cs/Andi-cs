@@ -21,7 +21,9 @@ namespace CustomMapsWindowsTest
         }
         public void AddCustomIcon(MapControl mapControl, string iconUri, BasicGeoposition location)
         {
-            var mapIcon = new MapIcon
+            MapIcon x = new MapIcon();
+           
+             var mapIcon = new MapIcon
             {
                 Image = RandomAccessStreamReference.CreateFromUri(new Uri(iconUri)),
                 Location = new Geopoint(location),
